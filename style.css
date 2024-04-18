@@ -11,7 +11,7 @@ body{
     background: black;
 }
 .card{
-    width: 90%;
+    width: 470px;
     max-width: 470px;
     background: linear-gradient(135deg, #00feba, #5b548a);
     color: white;
@@ -111,7 +111,7 @@ body{
         padding: 40px 10px;
         margin-top: 81px;
         border-radius: 12px;
-        height: 129px;
+        height: 548px;
     }
     .search input{
         margin-left: -7px;
@@ -131,15 +131,9 @@ body{
         margin-top: 68px;
     }
 }
-@media(max-width: 238px){
+@media(max-width: 292px){
     .card{
-        width: 122%;
-        height:530px;
+        width: 290px;
     }
 }
-@media(max-width: 188px) {
-    .card{
-        width: 154%;
-        height: 609px;
-    }
-}
+
