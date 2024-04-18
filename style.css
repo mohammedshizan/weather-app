@@ -131,8 +131,15 @@ body{
         margin-top: 68px;
     }
 }
-@media(max-width: 225px) {
+@media(max-width: 238px){
     .card{
-        width: 130%;
+        width: 122%;
+        height:530px;
+    }
+}
+@media(max-width: 188px) {
+    .card{
+        width: 154%;
+        height: 609px;
     }
 }
